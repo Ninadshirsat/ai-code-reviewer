@@ -41,7 +41,6 @@ export function DashboardNav() {
 
   return (
     <SidebarGroup>
-      <RiSettings3Line />
       <SidebarGroupLabel>Workspace</SidebarGroupLabel>
       <SidebarGroupContent>
         <SidebarMenu>

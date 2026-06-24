@@ -14,8 +14,8 @@ import {
   SidebarSeparator,
 } from "@/components/ui/sidebar";
 import { UserMenuUser } from "@/features/auth/components/user-menu";
-import { SidebarUserButton } from "./sidebar-user-button";
-import { DashboardNav } from "./dashboard-nav";
+import { SidebarUserButton } from "@/features/dashboard/components/sidebar-user-button";
+import { DashboardNav } from "@/features/dashboard/components/dashboard-nav";
 
 type DashboardSidebarProps = {
   user: UserMenuUser;
@@ -33,12 +33,12 @@ export function DashboardSidebar({
           <SidebarMenuItem>
             <SidebarMenuButton
               size="lg"
-              tooltip="ChaiCodeAIReview"
+              tooltip="AI Code Reviewer"
               render={
                 <Link href={DASHBOARD_ROUTES.overview}>
                   <span className="flex size-8 shrink-0 items-center justify-center overflow-hidden rounded-none bg-sidebar">
                     <Image
-                      src="/logo2.svg"
+                      src="/logo.png"
                       alt=""
                       width={62}
                       height={62}
@@ -47,7 +47,7 @@ export function DashboardSidebar({
                   </span>
                   <span className="grid flex-1 text-left leading-tight group-data-[collapsible=icon]:hidden">
                     <span className="truncate font-medium">
-                      ChaiCodeAIReview
+                      AI Code Reviewer
                     </span>
                   </span>
                 </Link>

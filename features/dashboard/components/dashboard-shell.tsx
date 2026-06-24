@@ -1,7 +1,7 @@
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
 import { UserMenuUser } from "@/features/auth/components/user-menu";
-import { DashboardSidebar } from "./dashboard-sidebar";
+import { DashboardSidebar } from "@/features/dashboard/components/dashboard-sidebar";
 
 type DashboardShellProps = {
   children: React.ReactNode;
