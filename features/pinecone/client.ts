@@ -9,8 +9,3 @@ export function getPineconeIndex() {
 
   return pinecone.index({ name: process.env.PINECONE_INDEX! });
 }
-
-// const pc = new Pinecone({
-//   apiKey: process.env.PINECONE_API_KEY,
-// });
-// const index = pc.index("quickstart");
